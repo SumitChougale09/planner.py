@@ -5,3 +5,19 @@ google-generativeai
 numpy
 requests 
 aiohttp
+
+# Develop an AI-powered personalized trip planner that dynamically creates end-to-end itineraries tailored to individual budgets, interests, and real-time conditions with seamless booking capabilities.
+
+# Challenge
+# Travelers often struggle to create itineraries that balance budget, time, and personal interests. Existing tools provide generic suggestions, but they rarely adapt to individual preferences like cultural heritage, nightlife, or adventure. This leaves users spending hours piecing together trips from scattered sources, often missing hidden gems or overspending.
+
+# Objective
+# Build an AI-powered trip planner that generates personalized, end-to-end itineraries tailored to a traveler’s budget, interests, and available time. The solution should simplify trip planning and deliver adaptive recommendations in real time. Once finalized, the traveller should get the final itinerary and the system should also book it through EMT inventory in just click of a button and accept payment.
+
+# Solution Capabilities:
+# Generate dynamic itineraries that adapt to user inputs on budget, trip duration, and themes (heritage, nightlife, adventure, etc.).
+#  Aggregate data from multiple sources (maps, events, local guides) to recommendaccommodation, transport, and experiences.
+# Provide multilingual, interactive interfaces for personalized travel assistance across regions in India.  
+# Offer  smart adjustments in real time (e.g., weather changes, delays, or last-minute bookings).
+# Deliver a shareable, optimized itinerary with cost breakdowns and book the tickets in a click of a button after accepting payment.
+# Tech Stack:Use of Google AI technologies (Gemini, Vertex AI, Maps API, Firebase, BigQuery).
