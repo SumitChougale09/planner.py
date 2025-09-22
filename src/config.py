@@ -1,3 +1,9 @@
+# Configuration and Data Models for AI Trip Planner
+from dataclasses import dataclass
+from enum import Enum
+from datetime import datetime
+from typing import List, Optional
+
 @dataclass
 class TripPreferences:
     budget: float
@@ -30,6 +36,7 @@ class TripItinerary:
     total_cost: float
     created_at: datetime
     status: str = "draft"
+    optimization_suggestions: Optional[List[str]] = None
 
 class AgentType(Enum):
     ORCHESTRATOR = "orchestrator"

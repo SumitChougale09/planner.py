@@ -1,3 +1,8 @@
+# Booking Agent for AI Trip Planner
+import uuid
+from typing import Dict, Any
+
+
 class BookingAgent:
     """Agent specialized in handling bookings and payments"""
     
